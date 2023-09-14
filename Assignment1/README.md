@@ -1,13 +1,14 @@
 # TODO Please edit the following information in your assignment
 
 - Name:Yiwen Wang
-- How many hours did it take you to complete this assignment?
-- Did you collaborate with any other students/TAs/Professors?
+- How many hours did it take you to complete this assignment? 4 hour
+- Did you collaborate with any other students/TAs/Professors? No
 - Did you use any external resources? (Cite them below)
-  - tbd
-  - tbd
+  - N/A
 - (Optional) What was your favorite part of the assignment?
+  learning advance python skills
 - (Optional) How would you improve the assignment?
+  maybe add some basic python course as optional to refresh memory
 
 # Implementation Logistics
 
