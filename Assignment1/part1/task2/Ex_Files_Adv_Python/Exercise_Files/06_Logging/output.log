@@ -1,0 +1,3 @@
+09/14/2023 03:05:11 PM: INFO: main Line:22 User:joem@example.com This is an info-level log message
+09/14/2023 03:05:11 PM: WARNING: main Line:23 User:joem@example.com This is a warning-level message
+09/14/2023 03:05:11 PM: DEBUG: anotherFunction Line:9 User:joem@example.com This is a debug-level log message
