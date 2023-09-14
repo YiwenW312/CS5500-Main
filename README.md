@@ -1,7 +1,7 @@
 # Monorepo
 
 - [ ] *Your Name Here* **Yiwen Wang**
-- [ ] *[Phonetic spelling](https://dictionary.cambridge.org/us/help/phonetics.html) of your name here* **/jiː/ /wɜːn/ /wɑːŋ/**
+- [ ] *[Phonetic spelling](https://dictionary.cambridge.org/us/help/phonetics.html) of your name here* **/iː/ /wɜːn/ /wɑːŋ/**
 
 ## Important Documents 
 
