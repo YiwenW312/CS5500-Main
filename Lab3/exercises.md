@@ -30,6 +30,7 @@ Note: You do not 'have' a constructor, but you construct the object in the *inst
 Hint: Look at Lecture 3 slides for an example of creating a Singleton in Python
 
 1. Are singleton's in Python thread safe? Why or why not?
+Singletons in Python, as implemented in the singleton.py example, are not inherently thread-safe. If multiple threads attempt to create an instance of the singleton at the same time, there's a possibility that the initialization code could run more than once, which would violate the Singleton pattern.
 
 *edit the code directly*  
   
