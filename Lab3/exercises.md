@@ -6,9 +6,10 @@ Update your answers to the following questions, make sure to commit this file an
 ## Task 1 - oop.py
 
 1. Is MObject an abstract or a concrete class? Explain why:
-	- *edit your response*
+	- Mobject is a concrete class because it is not defined with Abstract Base classes(ABC) and in Python, a method becomes abstract when decorated with the keyword @abstractmethod.
 1. The 'Image' class has commented code for a `__del__` method. What does this commented-out method do?
-	- *edit your response*
+	- As it's currently commented out, it won't have any effect. If it were active and had actual code inside, that code would be executed whenever an Image object was about to be destroyed.The Commented URL provided in the comment is a link to Python's official documentation, specifically to the section detailing the __del__ method. This link is likely included as a reference or note to explain the purpose and behavior of the __del__ method.
+	- the commented-out __del__ method in the provided Image class serves as a placeholder or a note about the destructor method. It is called when an object is about to be destroyed, which usually occurs when the object is no longer referenced in the program or the program terminates. It can be used to release external resources or perform cleanup activities.
 1. What class does Texture inherit from?
 	- *edit your response*
 1. What methods and attributes does the Texture class inherit from 'Image'? 
