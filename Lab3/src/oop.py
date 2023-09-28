@@ -38,8 +38,24 @@ class Image:
         self.m_Pixels = [value] * (self.m_width * self.m_height * self.m_colorChannels)
 
 
-class Texture(Image):
-    pass
+class Texture:
+    def __init__(self, w, h):
+        self.image = Image(w, h)
+
+    def getWidth(self):
+        return self.image.getWidth()
+
+    def getHeight(self):
+        return self.image.getHeight()
+    
+    def getPixelColorR(self, x, y):
+        return self.image.getPixelColorR(x, y)
+    
+    def getPixels(self):
+        return self.image.getPixels()
+    
+    def setPixelsToRandomValue(self):
+        self.image.setPixelsToRandomValue()
 
 
 def main():
