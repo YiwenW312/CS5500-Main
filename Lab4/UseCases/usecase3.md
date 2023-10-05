@@ -6,31 +6,31 @@
 
 <hr>
 
-**Use Case**: *use-case-title*
+**Use Case**: Canvac Clearing
 
-**Primary Actor**: *primary-actor*
+**Primary Actor**: User
 
-**Goal in Context**: *the aim of the primary-actor in a particular circumstance*
+**Goal in Context**: To clear the canvas and fill it with the last selected color.
 
-**Preconditions**: *conditions that must be true before the scenario may play out*
+**Preconditions**: The program is running. And, the canvas is initialized and possibly has some drawings.
 
-**Trigger**: *an action or actions that initiate the scenario*
+**Trigger**: User presses the space key.
   
-**Scenario**: *an enumerated list of steps describing the actions and interactions of the primary actor with the system*
+**Scenario**: User presses the space key. -> The entire canvas is cleared. ->The canvas is filled with the last selected color.
  
-**Exceptions**: *errors or faults that may occur during the scenario. Should include remedy/corrective action taken by the primary actor*
+**Exceptions**: If no color has been selected before pressing the space key, the canvas will be filled with the default color (white, as per use case 1).
 
-**Priority**: *relative importance of this use case compared to other use cases*
+**Priority**: Medium-priority.
 
-**When available**: *the targeted release that covers this use case*
+**When available**: First release.
 
-**Channel to actor**: *the means through which the primary actor and the system communicate*
+**Channel to actor**: User communicates through the keyboard. The system should acknowledge within 1 second of the keyboard event.
 
-**Secondary Actor**: *any other actors – people or systems – that may be involved in the scenario*
+**Secondary Actor**: N/A
 
-**Channels to Secondary Actors**: *the means through which any secondary actors may interact with the system or other actors*
+**Channels to Secondary Actors**: N/A
 
-**Open Issues**: *notes, concerns, or other materials*
+**Open Issues**: Improve with user feedback
 
 <hr>
 

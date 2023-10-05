@@ -17,7 +17,7 @@
 **Trigger**: The user double-click the program icon and Program startup.
   
 **Scenario**: The program starts. -> A window with dimensions 600x400 pixels is initialized.
-->The canvas within the window is also initialized with dimensions 600x400 pixels. -> The default color of the canvas is set to black (or any other default color specified).
+->The canvas within the window is also initialized with dimensions 600x400 pixels. -> The default color of the canvas is set to a default color specified(for example, white).
  
 **Exceptions**: The program may be failed to initialized. In this case, an error message should be displayed to the user.
 
