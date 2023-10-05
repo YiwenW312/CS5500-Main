@@ -1,8 +1,8 @@
 # TODO Please edit the following information in your assignment
 
-- Name:
+- Name:Yiwen Wang
 - How many hours did it take you to complete this assignment?
-- Did you collaborate with any other students/TAs/Professors?
+- Did you collaborate with any other students/TAs/Professors? N/A
 - Did you use any external resources? (Cite them below)
   - tbd
   - tbd
