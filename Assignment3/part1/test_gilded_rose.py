@@ -100,7 +100,7 @@ class GildedRoseTest(unittest.TestCase):
 
     def test_conjured_item(self):
         # Arrange
-            items = [Item("Conjured", 5, 42)]
+        items = [Item("Conjured", 5, 42)]
         gr = GildedRose(items)
 
         original_sell_in = gr.get_item_sell_in("Conjured")
@@ -120,7 +120,6 @@ class GildedRoseTest(unittest.TestCase):
         assert new_quality <= 50
         assert new_quality < original_quality
         assert new_quality == original_quality - 2
-    
-    
+
     if __name__ == '__main__':
         unittest.main()
