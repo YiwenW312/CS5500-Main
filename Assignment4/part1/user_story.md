@@ -1,4 +1,4 @@
-As a Paypal registed user, I can send money to a friend's email or phone number, so that I can quickly transfer funds without needing their bank details.
+As a Paypal registed user, I can send money to a friend's email, phone number or a username, so that I can quickly transfer funds without needing their bank details.
 
 Acceptance Criteria:
 
