@@ -1,4 +1,4 @@
 # Github Links
 
-* Organization:
+* Organization: TrinityGo
 * Project Board:
